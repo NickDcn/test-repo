@@ -3,7 +3,17 @@ entries:
   chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-18T01:26:28.621609481Z"
+    created: "2021-10-18T01:29:33.477072867Z"
+    description: A Helm chart for Kubernetes
+    digest: df8ad93b8adfae0dc8d2b7f4982fd2844e4750434f97e688d229910de9d3732a
+    name: chart
+    type: application
+    urls:
+    - https://nickdcn.github.io/test-repo/chart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-18T01:29:33.47596219Z"
     description: A Helm chart for Kubernetes
     digest: fcf32c8bedd68d12e015df04afab96e5ed8621ea553df8fe6f5974b549df9dac
     name: chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://nickdcn.github.io/test-repo/chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-18T01:26:28.620018858Z"
+generated: "2021-10-18T01:29:33.474060941Z"
