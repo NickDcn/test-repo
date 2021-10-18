@@ -4,11 +4,9 @@
 
 replicaCount: 1
 
-image:
-  repository: nckdcn/testrepo
-  pullPolicy: IfNotPresent
+image: nckdcn/testrepo:latest
+pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
