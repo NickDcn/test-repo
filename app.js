@@ -6,7 +6,7 @@ api.use(express.json())
 
 api.get('/test', (req, res) => { 
     req.body
-    res.status(200).send({
+    res.send({
         test: "this a test"
     })
 });
